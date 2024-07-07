@@ -9,9 +9,6 @@ pipeline {
     }
 
    agent  any
-    options {
-        shell '/bin/bash'
-    }
     stages {
         stage('checkout') {
             steps {
