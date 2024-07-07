@@ -9,6 +9,9 @@ pipeline {
     }
 
    agent  any
+    options {
+        shell '/bin/zsh'
+    }
     stages {
         stage('checkout') {
             steps {
