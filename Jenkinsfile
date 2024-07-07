@@ -10,7 +10,7 @@ pipeline {
 
    agent  any
     options {
-        shell '/bin/zsh'
+        shell '/bin/bash'
     }
     stages {
         stage('checkout') {
